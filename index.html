@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <main>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">Your time matters here. Please show us your feedback on how to improve our community!</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="name" id="name-label">NAME: <input type="text" id="name" placeholder="Juan Dela Cruz Jr." required>
+        <label for="email" id="email-label">EMAIL: <input type="email" id="email" placeholder="juan@gmail.com" required>
+        <label for="number" id="number-label">AGE: <input type="number" id="number" placeholder="21" min="18" max="40">
+      </fieldset>
+      <fieldset>
+        <label for="referrer">In which platform did you find us?</label>
+        <select id="dropdown" required>
+          <option value="">Select a platform</option>
+          <option value="1">Twitch</option>
+          <option value="2">Tiktok</option>
+          <option value="3">Youtube</option>
+          <option value="4">Facebook</option>
+          <option value="5">Others</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="supporter" required>Who do you support the most?</label>
+        <label for="ryunosuke"><input id="ryunosuke" type="radio" name="supporter" class="inline" value="ryu" checked/> Ryunosuuuke</label>
+        <label for="aoibewi"><input id="aoibewi" type="radio" name="supporter" class="inline" value="aoi"/> Aoibewi</label>
+      </fieldset>
+      <fieldset>
+        <label for="improve" required>What would you like to improve?</label>
+        <label>
+          <input type="checkbox" value="events" class="inline">
+          More Community Events
+        </label>
+        <label>
+          <input type="checkbox" value="schedule" class="inline">
+          Updated Streaming Schedule
+        </label>
+        <label>
+          <input type="checkbox" value="moderation" class="inline">
+          Better Moderation/Handling
+        </label>
+        <label>
+          <input type="checkbox" value="giveaways" class="inline">
+          More Giveaways
+        </label>
+        <label>
+          <input type="checkbox" value="topics" class="inline">
+          More Active Chats/Topics
+        </label>
+        <label>
+          <input type="checkbox" value="channels" class="inline">
+          Optimized Channels
+        </label>
+      </fieldset>
+      <label for="comments">If you have more comments, feel free to drop it below: <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I would like you to know that..."></textarea> </label> </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </main>
+</body>
+</head>
+</html>
