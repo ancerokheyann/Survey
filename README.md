@@ -25,3 +25,23 @@ The form is designed to collect feedback from members of our Discord community a
 ---
 
 ## 📂 Project Structure
+
+---
+
+## 📖 Lessons Learned
+- How to build forms using HTML elements
+- Using input types (text, email, number, radio, checkbox)
+- Organizing form sections with `<fieldset>` and `<label>`
+- Linking a form to a submission endpoint
+
+---
+
+## 🎯 Next Steps
+- Add **CSS styling** to make the form more visually appealing
+- Add **form validation** to ensure correct input
+- Connect the form to a backend or Google Sheets to **store responses**
+
+---
+
+## 📚 Acknowledgements
+This project was inspired by [FreeCodeCamp](https://www.freecodecamp.org/) and customized for our Discord community feedback.
