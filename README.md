@@ -24,10 +24,6 @@ The form is designed to collect feedback from members of our Discord community a
 
 ---
 
-## 📂 Project Structure
-
----
-
 ## 📖 Lessons Learned
 - How to build forms using HTML elements
 - Using input types (text, email, number, radio, checkbox)
